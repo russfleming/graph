@@ -109,6 +109,37 @@ export class WeatherService {
             }
           ],
           dt: 1485768552
+        },
+        {
+          main: {
+            temp: 179.38,
+            pressure: 1011,
+            humidity: 93,
+            temp_min: 312.15,
+            temp_max: 110.15
+          },
+          wind: {
+            speed: 2.6,
+            deg: 30
+          },
+          clouds: {
+            all: 90
+          },
+          weather: [
+            {
+              id: 701,
+              main: 'Mist',
+              description: 'mist',
+              icon: '50d'
+            },
+            {
+              id: 741,
+              main: 'Fog',
+              description: 'fog',
+              icon: '50d'
+            }
+          ],
+          dt: 1455762552
         }
       ]
     }
