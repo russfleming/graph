@@ -25,7 +25,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/chart.js/dist/Chart.bundle.js",
+              "./node_modules/chart.js/dist/Chart.js"
+            ]
           },
           "configurations": {
             "production": {

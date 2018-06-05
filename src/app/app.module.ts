@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { Chart } from 'chart.js';
+import { HttpClientModule } from '@angular/common/http';
+import { WeatherService } from './weather.service';
+  
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -8,9 +11,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [WeatherService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
